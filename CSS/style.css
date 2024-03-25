@@ -1,6 +1,6 @@
 #bg{
     position: absolute;
-    background-image: url('/Assets/bg.jpg');
+    background-image: url('../Assets/bg.jpg');
     filter: blur(15px);
     height: 980px;
     width: 100%;
