@@ -21,7 +21,7 @@ let facts = [
 ]
 
 const timeRemaining = easterDate - currentDate;
-let hours, minutes, seconds = "test";
+let hours, minutes, seconds;
 let totalSeconds = Math.floor(timeRemaining / 1000)
 
 hours = Math.floor(totalSeconds / 3600);

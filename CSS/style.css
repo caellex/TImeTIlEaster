@@ -4,12 +4,15 @@
     filter: blur(15px);
     height: 980px;
     width: 100%;
+    z-index: 0;
 }
+
 #app{
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: center;
+    z-index: 1;
 
 }
 

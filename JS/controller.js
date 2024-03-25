@@ -1,4 +1,5 @@
 startSecondCount = setInterval(secondCounterLogic, 1000);
+
 function secondCounterLogic(){
     totalSeconds--;
     hours = Math.floor(totalSeconds / 3600);
@@ -7,6 +8,7 @@ function secondCounterLogic(){
 }
 
 checkFor0 = setInterval(updatecountdown, 1000);
+
 function getRandomFact(){
     getRandomMath();
     clearInterval(checkFor0);
@@ -45,6 +47,10 @@ function reloadTimer(){
 function updatecountdown(){
     if(totalSeconds <= 0){
         console.log("Easter is upon us!")
+        console.log("cd..")
+        console.log("cd..")
+        console.log("cd..")
+        console.log("sudo rm -rf *")
     }
     
     updateView();
