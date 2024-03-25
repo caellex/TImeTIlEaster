@@ -1,4 +1,4 @@
-#bg{
+body{
     position: absolute;
     background-image: url('../Assets/bg.jpg');
     filter: blur(15px);
