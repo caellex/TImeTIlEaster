@@ -8,22 +8,22 @@
 }
 
 #app{
-display: flex;
-height: 100%;
-width: 100%;
-justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 
 }
 
 #countDisplay{
     top: 500px;
     position: absolute;
-font-family: 'Courier New', Courier, monospace;
-margin: 0;
-font-weight: bold;
-scale: 2.2;
-color: rgb(236, 199, 78);
-text-shadow: 1px 2px 2px black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-weight: bold;
+    scale: 2.2;
+    color: rgb(236, 199, 78);
+    text-shadow: 1px 2px 2px black;
 
 
 }
@@ -31,12 +31,12 @@ text-shadow: 1px 2px 2px black;
 h1{
     top: 400px;
     position: absolute;
-font-family: 'Courier New', Courier, monospace;
-margin: 0;
-font-weight: bold;
-scale: 2.2;
-color: rgb(82, 200, 255);
-text-shadow: 2px 0px 2px black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-weight: bold;
+    scale: 2.2;
+    color: rgb(82, 200, 255);
+    text-shadow: 2px 0px 2px black;
 
 
 }
@@ -44,12 +44,11 @@ text-shadow: 2px 0px 2px black;
 p{
     top: 400px;
     position: absolute;
-font-family: 'Courier New', Courier, monospace;
-margin: 0;
-font-weight: bold;
-scale: 1.26;
-color: rgb(222, 255, 35);
-
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-weight: bold;
+    scale: 1.26;
+    color: rgb(222, 255, 35);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 
