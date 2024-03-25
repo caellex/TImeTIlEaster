@@ -1,4 +1,4 @@
-body{
+#bg{
     position: absolute;
     background-image: url('../Assets/bg.jpg');
     filter: blur(15px);
@@ -6,7 +6,6 @@ body{
     width: 100%;
 
 }
-
 #app{
     display: flex;
     height: 100%;
